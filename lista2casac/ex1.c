@@ -3,7 +3,7 @@
 int main() {
     int n;
    printf("Digite o número:");
-   scanf("%i%", &n);
+   scanf("%i", &n);
    
    if (n%2==0){
        printf("O número é par","%i", n);

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float n, nc, d;
+    float n, nc, d, d1;
    printf("Digite o número:");
    scanf("%f", &n);
    
@@ -14,7 +14,8 @@ int main() {
        printf("A diferença é: %f", d);
    }
    else{
-       printf("A diferença é: %f", d*-1);
+    d1 = d*-1;
+       printf("A diferença é: %f", d1);
    }
     return 0;
 }
